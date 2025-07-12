@@ -21,9 +21,9 @@ def get_portfolio_images():
         
         # Mapeamento de pastas para categorias
         folder_mapping = {
-            'carros_passeio': 'small',
-            'veículos_comerciais': 'medium',
-            'caminhoes_onibus': 'large'
+            'pequeno_porte': 'small',
+            'medio_porte': 'medium',
+            'grande_porte': 'large'
         }
         
         # Verificar se o diretório de imagens existe
